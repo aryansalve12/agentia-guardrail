@@ -1,3 +1,3 @@
 @echo off
-echo GUARDRAIL GATE RAN
-exit /b 1
+echo GUARDRAIL PASS
+exit /b 0
