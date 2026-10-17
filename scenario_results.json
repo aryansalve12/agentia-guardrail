@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "01 Apex class without test",
+    "expected": "BLOCK",
+    "actual": "BLOCK",
+    "result": "OK"
+  },
+  {
+    "scenario": "02 Apex class with test",
+    "expected": "PASS",
+    "actual": "PASS",
+    "result": "OK"
+  },
+  {
+    "scenario": "03 Only test class changed",
+    "expected": "PASS",
+    "actual": "PASS",
+    "result": "OK"
+  },
+  {
+    "scenario": "04 Permission set changed",
+    "expected": "APPROVAL REQUIRED",
+    "actual": "APPROVAL REQUIRED",
+    "result": "OK"
+  },
+  {
+    "scenario": "05 Profile changed",
+    "expected": "APPROVAL REQUIRED",
+    "actual": "APPROVAL REQUIRED",
+    "result": "OK"
+  },
+  {
+    "scenario": "06 Field deleted",
+    "expected": "BLOCK",
+    "actual": "BLOCK",
+    "result": "OK"
+  },
+  {
+    "scenario": "07 Object deleted",
+    "expected": "BLOCK",
+    "actual": "BLOCK",
+    "result": "OK"
+  },
+  {
+    "scenario": "08 Connected app changed",
+    "expected": "APPROVAL REQUIRED",
+    "actual": "APPROVAL REQUIRED",
+    "result": "OK"
+  },
+  {
+    "scenario": "09 README only",
+    "expected": "PASS",
+    "actual": "PASS",
+    "result": "OK"
+  },
+  {
+    "scenario": "10 Class + permission set, no test",
+    "expected": "BLOCK",
+    "actual": "BLOCK",
+    "result": "OK"
+  }
+]
