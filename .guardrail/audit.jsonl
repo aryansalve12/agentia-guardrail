@@ -1,0 +1,2 @@
+{"timestamp": "2026-10-17T14:22:55.237819+00:00", "commit": "28d3c97", "rule": "APEX_TEST_REQUIRED", "result": "BLOCK", "reason": "force-app/main/default/classes/AccountService.cls changed but no test class (*Test.cls) changed.", "approvedBy": null}
+{"timestamp": "2026-10-17T14:23:50.614657+00:00", "commit": "28d3c97", "rule": "APEX_TEST_REQUIRED", "result": "BLOCK", "reason": "force-app/main/default/classes/AccountService.cls changed but no test class (*Test.cls) changed.", "approvedBy": null}
