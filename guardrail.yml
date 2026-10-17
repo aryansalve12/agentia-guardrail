@@ -1,0 +1,20 @@
+﻿version: 1
+base_branch: main
+approvals_file: .guardrail/approvals.json
+audit_log: .guardrail/audit.jsonl
+rules:
+  - id: APEX_TEST_REQUIRED
+    description: Changed Apex classes need a changed test class
+    severity: block
+  - id: PERMISSION_APPROVAL
+    description: Permission set or profile changes need human approval
+    severity: approval
+  - id: DESTRUCTIVE_CHANGE
+    description: Deleting objects or fields is blocked
+    severity: block
+  - id: SENSITIVE_METADATA
+    description: Sensitive metadata types need human review
+    severity: approval
+    paths:
+      - "**/connectedApps/**"
+      - "**/remoteSiteSettings/**"
