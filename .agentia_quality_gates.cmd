@@ -1,3 +1,3 @@
 @echo off
-echo GUARDRAIL PASS
-exit /b 0
+python guardrail.py
+exit /b %ERRORLEVEL%
